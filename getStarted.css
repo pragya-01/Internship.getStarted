@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+.getStarted{
+    background-color: #0F1D34;
+    color: white;
+    width: 100%;
+    padding:7% 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+
+.getStartedButton{
+    background-color: #CECECF;
+    color:#0F1D34;
+    text-align: center;
+  text-decoration: none;
+  display:block;
+  padding:2% 2%;
+  border: 1px #0F1D34;
+  border-radius: 5%;
+  font-size:70%;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  margin: 5% 0;
+}
+.getStartedButton .getStartedButtonText {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .getStartedButton .getStartedButtonText:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .getStartedButton:hover .getStartedButtonText {
+    padding-right: 25px;
+  }
+  
+  .getStartedButton:hover .getStartedButtonText:after {
+    opacity: 1;
+    right: 0;
+  }
+.getStartedBest
+{
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+
+.getStartedGrowing{
+
+font-style: italic;
+font-family: 'Lato', sans-serif;
+}
