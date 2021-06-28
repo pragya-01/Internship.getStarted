@@ -14,7 +14,7 @@ class getStarted extends Component {
             providers to get your business <span className="getStartedGrowing"> growing</span>
         </p>
     </div> 
-     <button type="button" className="getStartedButton">
+     <button type="button" className="getStartedButton" id="getStartedButton">
        <span className="getStartedButtonText"> Get Started</span>
      </button>
 </div>
